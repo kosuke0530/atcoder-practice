@@ -10,6 +10,12 @@ a, b = map(int, input().split())
 # 2桁で0埋めして出力
 result = f"{ans:02d}"
 
+# リストの要素を区切り文字なし（""）で結合する
+ans = "".join(result_list)
+
+切り捨て: a // b
+切り上げ: -(-a // b)
+
 #　回答を完了したらgitに追加
 git add .
 git commit -m "Solve ABC003 A"
