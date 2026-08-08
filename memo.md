@@ -7,6 +7,12 @@ s = input()
 # 整数がスペース区切りで複数
 a, b = map(int, input().split())
 
+# N行 →　1つの配列
+a = [int(input()) for _ in range(N)]
+
+# 1行の数字（スペース区切りで）複数個を配列に
+A = list(map(int, input().split()))
+
 # 2桁で0埋めして出力
 result = f"{ans:02d}"
 
