@@ -7,6 +7,9 @@ s = input()
 # 整数がスペース区切りで複数
 a, b = map(int, input().split())
 
+# 配列の受け取り
+A = [int(x) for x in input().split()]
+
 # N行 →　1つの配列
 a = [int(input()) for _ in range(N)]
 
