@@ -1,2 +1,2 @@
-print('こんにちは')
-print('AtCoder')
+print("こんにちは")
+print("AtCoder")

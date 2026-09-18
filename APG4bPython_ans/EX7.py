@@ -1,6 +1,6 @@
-a = True # True または False
-b = False # True または False
-c = True # True または False
+a = True  # True または False
+b = False  # True または False
+c = True  # True または False
 
 # ここから先は変更しないこと
 

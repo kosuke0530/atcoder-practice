@@ -1,2 +1,2 @@
 print("いつも2525")
-print('AtCoderくん')
+print("AtCoderくん")
