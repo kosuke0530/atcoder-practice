@@ -1,14 +1,9 @@
-N = int(input())
-S = input()
-T = input()
-
+N, D = map(int, input().split())
+X = input().split()
+ans = []
 for i in range(N):
-    if T[i] == '*':
-        continue
-    elif S[i] == T[i]:
-        pass
-    else:
-        print('No')
-        break
-else:
-    print('Yes')
+    for j in range(N + 1):
+        j += 1
+        if abs(X[i] - X[j]) < D:
+            break
+        
